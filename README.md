@@ -51,7 +51,19 @@ Finally, start Jupyter:
 
     $ jupyter notebook
 
+Alternatively you can run the helper script to install Miniconda and
+create the environment in one go:
+
+    $ bash scripts/setup_conda.sh
+
 If you need further instructions, read the [detailed installation instructions](INSTALL.md).
+
+To run the example autoencoder script and generate a loss curve image:
+
+    $ python scripts/autoencoder_complex.py
+
+The training and validation loss curves will be saved to `loss_curve.png` and the
+script will print the reconstruction error on the validation set.
 
 # FAQ
 
