@@ -51,6 +51,11 @@ Finally, start Jupyter:
 
     $ jupyter notebook
 
+Alternatively you can run the helper script to install Miniconda and
+create the environment in one go:
+
+    $ bash scripts/setup_conda.sh
+
 If you need further instructions, read the [detailed installation instructions](INSTALL.md).
 
 # FAQ
