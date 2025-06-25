@@ -58,6 +58,13 @@ create the environment in one go:
 
 If you need further instructions, read the [detailed installation instructions](INSTALL.md).
 
+To run the example autoencoder script and generate a loss curve image:
+
+    $ python scripts/autoencoder_complex.py
+
+The training and validation loss curves will be saved to `loss_curve.png` and the
+script will print the reconstruction error on the validation set.
+
 # FAQ
 
 **Which Python version should I use?**
